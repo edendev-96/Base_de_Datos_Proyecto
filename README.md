@@ -19,17 +19,12 @@ Evaluar cómo las carencias sociales (rezago educativo, salud, seguridad social,
 
 ```
 .
-├── 01_base_original/
+├── data/
 │   └── Concentrado_indicadores_de_pobreza_2020.xlsx   # archivo oficial CONEVAL, sin modificar
-├── 02_base_limpia/
-│   └── pobreza_municipal_jalisco_2020_limpia.csv      # 125 municipios x 22 columnas
-├── 03_programas/
-│   ├── 01_limpieza.py          # genera la base limpia desde el Excel original
-│   ├── 02_modelos.py           # regresión simple, múltiple y validación cruzada
-│   └── resultados_modelos.txt  # salida de 02_modelos.py
-├── 04_documento/
-│   ├── GeoEquidad_Avance.tex   # documento del avance (fuente)
-│   └── GeoEquidad_Avance.pdf   # documento del avance
+|   └── pobreza_municipal_jalisco_2020_limpia.csv      # 125 municipios x 22 columnas
+├── 01_limpieza.py          # genera la base limpia desde el Excel original
+├── 02_modelos.py           # regresión simple, múltiple y validación cruzada
+├── GeoEquidad_Avance.pdf   # documento del avance
 └── README.md
 ```
 
