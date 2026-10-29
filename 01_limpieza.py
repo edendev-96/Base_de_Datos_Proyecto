@@ -11,8 +11,8 @@ from pathlib import Path
 import pandas as pd
 import numpy as np
 
-ORIGEN = Path("01_base_original/Concentrado_indicadores_de_pobreza_2020.xlsx")
-DESTINO = Path("02_base_limpia/pobreza_municipal_jalisco_2020_limpia.csv")
+ORIGEN = Path("data/Concentrado_indicadores_de_pobreza_2020.xlsx")
+DESTINO = Path("data/pobreza_municipal_jalisco_2020_limpia.csv")
 
 # 1. Lectura del libro sin encabezado (los encabezados estan repartidos en las filas 4 y 5)
 raw = pd.read_excel(ORIGEN, sheet_name="Concentrado municipal", header=None, dtype=object)

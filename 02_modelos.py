@@ -24,7 +24,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import RepeatedKFold, cross_validate
 from sklearn.metrics import r2_score
 
-DATOS = "02_base_limpia/pobreza_municipal_jalisco_2020_limpia.csv"
+DATOS = "data/pobreza_municipal_jalisco_2020_limpia.csv"
 Y = "pobreza_porcentaje"
 
 CARENCIAS = [
